@@ -1,0 +1,2 @@
+cd ~/Documents/encrypted_files  # Navigate to your folder
+openssl enc -d -aes-256-cbc -in <encryptedfile>.txt -out decrypted_file.txt -pass pass:<encryptionkey>
